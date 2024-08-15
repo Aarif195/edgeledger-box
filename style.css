@@ -93,7 +93,7 @@ img {
 .hero .content p {
   font-size: 23px;
   max-width: 600px;
-  margin: 0 30px;
+  margin: 10px 30px;
 }
 
 .btn {
@@ -251,7 +251,7 @@ img {
 
 .section-header h2 {
   font-size: 40px;
-  margin: 40px 0;
+  margin: 10px 0;
 }
 
 .section-padding {
@@ -276,8 +276,8 @@ img {
 }
 
 .team img {
-
   border-radius: 50%;
+  /* border-radius: 350%; */
 }
 
 /* callback-form */
@@ -364,4 +364,7 @@ img {
     width: 80%;
   }
 
+  .section-header p {
+    text-align: center;
+  }
 }
