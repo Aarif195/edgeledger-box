@@ -58,7 +58,7 @@ img {
 }
 
 .navbar a:hover {
-  border-bottom: #28a745 2px solid;
+  border-bottom: 2px #28a745 solid;
 }
 
 .navbar ul {
@@ -135,7 +135,7 @@ img {
 }
 
 .hero::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
@@ -174,12 +174,11 @@ img {
   height: 100%;
 }
 
-.flex-items>div {
+.flex-items > div {
   padding: 20px;
 }
 
 /* flec-colums */
-
 
 .flex-columns .row {
   display: flex;
@@ -324,14 +323,13 @@ img {
   color: #fff;
 }
 
-.footer .special>* {
+.footer .special > * {
   margin-right: 30px;
 }
 
 .footer a:hover {
   color: #28a745;
 }
-
 
 /* mobile design */
 @media (max-width: 768px) {
